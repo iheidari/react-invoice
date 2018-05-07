@@ -1,10 +1,10 @@
 .App {
-  text-align: center;
 }
 
 .App-header {
   background-color: #222;
-  height: 50px;
+  text-align: center;
+  height: 100px;
   padding: 20px;
   color: white;
 }
@@ -15,9 +15,21 @@
 
 .App-intro {
   font-size: large;
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.row {
+  height: 40px;
+}
+
+.invoiceRow:hover {
+  background-color: cadetblue;
+}
+
+.form-control {
+  width: 300px;
+}
+
+.input-group {
+  width: 300px;
 }
