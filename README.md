@@ -1,6 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+[Dependencies](./docs/dependencies.md)
+
 Build an invoice editor that allows a user add, edit, or remove line items according to the text-based mockup below. Pricing should be updated on-the-fly as line items are added or edited. Don't worry about persisting invoices.
+
 ```
 Item                      Qty     Price       Total
 --------------------------------------------------------
